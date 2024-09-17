@@ -23,6 +23,7 @@ async function showMenu() {
     console.log('5. Supprimer un étudiant');
     console.log('6. Afficher les détails d’un étudiant');
     console.log('7. Quitter');
+    
 
     const choice = await askQuestion('Choisissez une option : ');
 
